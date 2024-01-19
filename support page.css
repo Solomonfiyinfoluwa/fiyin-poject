@@ -1,0 +1,421 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #40260c;
+    padding: 0px 10px; /* Adjust the padding as needed */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the menu horizontally */
+}
+
+.logo svg {
+    width: 100px; /* Adjust the width of your logo */
+    fill: #fff; /* Set the fill color for the logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 55px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.icons svg {
+    width: 20px;
+    fill: #fff;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set the text color */
+    font-size: 40px; /* Set the text size */
+    font-weight: bold; /* Set the text weight */
+    text-align: center;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping to the next line on smaller screens */
+    margin: 35px 0; /* Adjust the margin as needed */
+}
+
+.icon-item {
+    text-align: center;
+    margin: 0 25px 20px 25px; /* Adjust the margin as needed */
+}
+
+.icon-item img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 50%; /* Adjust the border-radius as needed */
+}
+
+.icon-name {
+    margin-top: 10px; /* Adjust the margin as needed */
+    font-weight: lighter;
+}
+
+
+.icon-section2 {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping to the next line on smaller screens */
+    margin: 35px 0; /* Adjust the margin as needed */
+}
+
+.icon-item2 {
+    text-align: center;
+    margin: 0 70px 20px 70px; /* Adjust the margin as needed */
+}
+
+.icon-item2 img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 50%; /* Adjust the border-radius as needed */
+}
+
+.icon-name2 {
+    margin-top: 10px; /* Adjust the margin as needed */
+    font-weight: lighter;
+    color: rgb(57, 57, 214);
+    font-size: 10px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-top: 30px; /* Adjust the margin as needed */
+    font-size: 40px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+}
+
+.section-heading {
+    text-align: center;
+    margin-top: 30px; /* Adjust the margin as needed */
+    font-size: 30px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+}
+
+.search-bar {
+    text-align: center;
+    margin: -15px 0;
+}
+
+.search-bar input {
+    width: 600px; /* Adjust the width as needed */
+    padding: 15px; /* Adjust the padding as needed */
+    border: 1px solid #ccc; /* Adjust the border color as needed */
+    border-radius: 5px; /* Adjust the border-radius as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Add styles for your SVG search icon */
+.search-bar svg {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    fill: #333; /* Adjust the fill color as needed */
+}
+
+
+.dual-content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0; /* Adjust the margin as needed */
+}
+
+.text-content {
+    flex: 1;
+    max-width: 50%; /* Adjust the maximum width as needed */
+    box-sizing: border-box;
+    padding: 0 20px; /* Adjust the padding as needed */
+}
+
+.image-content {
+    flex: 1;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    box-sizing: border-box;
+    padding: 0 10px; /* Adjust the padding as needed */
+}
+
+.image-content img {
+    width: 300px;
+    height: auto;
+    margin-left: 300px;
+    border-radius: 10px; /* Add border-radius for rounded corners if desired */
+}
+
+/* Additional styles for text content if needed */
+.text-content h2 {
+    color: #333; /* Adjust the color as needed */
+}
+
+.text-content p {
+    color: #666; /* Adjust the color as needed */
+}
+
+.dual-content-section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0; /* Adjust the margin as needed */
+}
+
+.text-content2 {
+    flex: 1;
+    max-width: 50%; /* Adjust the maximum width as needed */
+    box-sizing: border-box;
+    margin-left: 300px;
+    padding: 0 20px; /* Adjust the padding as needed */
+}
+
+.image-content2 {
+    flex: 1;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    box-sizing: border-box;
+    padding: 0 10px; /* Adjust the padding as needed */
+}
+
+.image-content2 img {
+    width: 300px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: -900px;
+    border-radius: 10px; /* Add border-radius for rounded corners if desired */
+}
+
+/* Additional styles for text content if needed */
+.text-content2 h2 {
+    color: #333; /* Adjust the color as needed */
+}
+
+.text-content2 p {
+    color: #666; /* Adjust the color as needed */
+}
+
+
+
+.support-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 45px 0;
+}
+
+.img-overlay-container {
+    position: relative;
+    flex: 1;
+}
+
+.img-overlay-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.text-overlay2 {
+    position: absolute;
+    top: 160px;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.text-overlay3 {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgb(78, 111, 202);
+    font-weight: bold;
+}
+
+
+.text-overlay4 {
+    position: absolute;
+    top: 230px;
+    left: 475px;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgb(78, 111, 202);
+    font-weight: bold;
+}
+
+
+.dual-content-section3,
+.dual-content-section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.text-content3,
+.text-content4 {
+    flex: 1;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.image-content3,
+.image-content4 {
+    flex: 1;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.image-content3 img,
+.image-content4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Additional styles for text content if needed */
+.text-content3 h2,
+.text-content4 h2 {
+    color: #333;
+}
+
+.text-content3 p,
+.text-content4 p {
+    color: #666;
+}
+
+.warning h3,p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.warning h3 {
+    font-size: 25px;
+    color: #333;
+}
+
+.warning p {
+    font-size: large;
+    color: #666;
+}
+
+
+
+.dual-content-section5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0; /* Adjust the margin as needed */
+}
+
+.text-content5 {
+    flex: 1;
+    max-width: 50%; /* Adjust the maximum width as needed */
+    box-sizing: border-box;
+    padding: 0 20px; /* Adjust the padding as needed */
+}
+
+.image-content5 {
+    flex: 1;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    box-sizing: border-box;
+    padding: 0 10px; /* Adjust the padding as needed */
+}
+
+.image-content5 img {
+    width: 300px;
+    height: auto;
+    margin-left: 300px;
+    border-radius: 10px; /* Add border-radius for rounded corners if desired */
+}
+
+/* Additional styles for text content if needed */
+.text-content5 h2 {
+    color: #333; /* Adjust the color as needed */
+}
+
+.text-content5 p {
+    color: #666; /* Adjust the color as needed */
+}
+
+
+.service h2,h5{
+    text-align: left;
+    text-decoration: none;
+    margin-left: 320px;
+}
+
+.service h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+}
+
+.service h5 a{
+    font-size: large;
+    text-decoration: none;
+}
+
+.connect .image-content6{
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,407 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #676363;
+    padding: 0px 10px; /* Adjust the padding as needed */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the menu horizontally */
+}
+
+.logo svg {
+    width: 100px; /* Adjust the width of your logo */
+    fill: #fff; /* Set the fill color for the logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 55px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.icons svg {
+    width: 20px;
+    fill: #fff;
+    margin-left: 20px;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping to the next line on smaller screens */
+    margin: 35px 0; /* Adjust the margin as needed */
+}
+
+.icon-item {
+    text-align: center;
+    margin: 0 20px 12px 20px; /* Adjust the margin as needed */
+}
+
+.icon-item svg {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    object-fit: cover;
+    /* Adjust the border-radius as needed */
+}
+
+.icon-name {
+    font-size: 10px;
+    margin-top: 10px; /* Adjust the margin as needed */
+    color: #676363;
+    font-weight: lighter;
+}
+
+.icon-name2{
+    font-size: 10px;
+    margin-top: 0px; /* Adjust the margin as needed */
+    font-weight: lighter;
+    color: lightsalmon;
+}
+
+
+.main {
+    font-weight: lighter;
+    color: #676363;
+    font-size: 12px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: -27px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+h4 {
+    font-size: 17px;
+    font-weight: lighter;
+    color: #676363;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+h3.my-link a{
+    text-decoration: none;
+}
+
+
+.center-image {
+    display: block;
+    margin: 20px auto; /* Adjust the margin to control the distance from the text */
+    max-width: 100%;
+}
+
+
+.center-image2 {
+    display: block;
+    margin: 5px auto; /* Adjust the margin to control the distance from the text */
+    max-width: 100%;
+}
+
+.image-text {
+    position: absolute;
+    bottom: -300px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff; /* Set the text color to white */
+    font-size: 15px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+.image-text2 {
+    position: absolute;
+    bottom: -345px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    font-weight: bold;
+    transform: translateX(-50%);
+    color: #ffffff; /* Set the text color to white */
+    font-size: 32px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+.image-text2b {
+    position: absolute;
+    bottom: -370px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    font-weight: bold;
+    transform: translateX(-50%);
+    color: #ffffff; /* Set the text color to white */
+    font-size: 12px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+
+
+.image-text3 a{
+    position: absolute;
+    bottom: -400px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    font-weight: lighter;
+    transform: translateX(-50%);
+    color: #1343d3; /* Set the text color for the links */
+    font-size: 11px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+    text-decoration: none; /* Remove underline from the text */
+}
+
+.center-image3 {
+    display: block;
+    margin: 5px auto; /* Adjust the margin to control the distance from the text */
+    max-width: 100%;
+    border-radius: 20px;
+    height: 850px;
+}
+
+
+.image-text4 {
+    position: absolute;
+    bottom: -900px; /* Adjust the distance of the text from the bottom */
+    left: 283px;
+    font-weight: bold;
+    transform: translateX(-50%);
+    color: #fff; /* Set the text color to white */
+    font-size: 15px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+
+.image-text5 {
+    position: absolute;
+    bottom: -950px; /* Adjust the distance of the text from the bottom */
+    left: 320px;
+    font-weight: bold;
+    transform: translateX(-50%);
+    color: #fff; /* Set the text color to white */
+    font-size: 35px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+
+.image-text6 {
+    position: absolute;
+    bottom: -985px; /* Adjust the distance of the text from the bottom */
+    left: 335px;
+    font-weight: bold;
+    transform: translateX(-50%);
+    color: #fff; /* Set the text color to white */
+    font-size: 35px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+
+.image-text7 a{
+    position: absolute;
+    bottom: -1030px; /* Adjust the distance of the text from the bottom */
+    left: 280px;
+    transform: translateX(-50%);
+    color: #060000; /* Set the text color to white */
+    font-size: 12px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+    background: white; /* Add this line to set the background color */
+    padding: 10px 20px; /* Add padding to the button for better appearance */
+    border-radius: 20px; /* Add border-radius for rounded corners if desired */
+    text-decoration: none;
+}
+
+.you h3{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+
+
+.content-section {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 40px auto; /* Adjust margin as needed */
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.image-group img {
+    width: 80px; /* Adjust the width of each image as needed */
+
+
+}
+
+.image1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    
+}
+
+.New1{
+    font-size: 10px;
+    color: coral;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust margin as needed */
+
+}
+
+
+.New2{
+    margin-left: 250px;
+    margin-top: -55px;
+    font-size: 10px;
+    color: coral;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.iphones{
+    display: flex;
+    width: 0px 40px 40px 40px; /* Adjust the width of each image as needed */
+    justify-content: space-between;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.itexts{
+    display: flex;
+    font-size: 10px;
+    width: 0px 40px 40px 40px; /* Adjust the width of each image as needed */
+    justify-content: space-between;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.itexts2{
+    text-align: center;
+    display: flex;
+    font-size: 10px;
+    width: 0px 40px 40px 40px; /* Adjust the width of each image as needed */
+    justify-content: space-between;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.itexts3 a{
+    display: inline-block;
+    font-size: 10px;
+   color: #fff;
+   max-width: 200px;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-bottom: 10px; /* Adjust margin as needed */
+    background: rgb(35, 87, 241); /* Add this line to set the background color */
+    padding: 10px 2px; /* Add padding to the button for better appearance */
+    border-radius: 20px; /* Add border-radius for rounded corners if desired */
+    text-decoration: none;
+}
+
+
+.itexts4{
+    display: flex;
+    font-size: 10px;
+    width: 0px 40px 40px 40px; /* Adjust the width of each image as needed */
+    justify-content: space-between;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+p a{
+    text-decoration: none;
+}
+
+.comp{
+    text-align: center;
+    font-size: 15x;
+    margin-top: 100px;
+    margin-bottom: -27px;
+    
+}
+
+.ways{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-bottom: -27px;
+}
+
+
+.ways2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-bottom: -27px;
+}
+
+
+.way{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: -27px;
+}
+
+
+.itexts2c{
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    width: 0px 40px 40px 40px; /* Adjust the width of each image as needed */
+    justify-content: space-between;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.find p a{
+    display: inline-block;
+    font-size: 10px;
+    max-width: 500px;
+    color: #fff;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-bottom: 10px; /* Adjust margin as needed */
+    background: rgb(35, 87, 241); /* Add this line to set the background color */
+    padding: 15px 25px; /* Add padding to the button for better appearance */
+    border-radius: 20px; /* Add border-radius for rounded corners if desired */
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    size: 15px;
+    margin-bottom: 100px;
+}

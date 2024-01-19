@@ -1,0 +1,440 @@
+/* Add styles for the menu */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+h3.my-link a{
+    text-decoration: none;
+}
+
+
+.center-image {
+    display: block;
+    margin: 20px auto; /* Adjust the margin to control the distance from the text */
+    max-width: 100%;
+}
+
+.center-image2 {
+    display: block;
+    margin: 5px auto; /* Adjust the margin to control the distance from the text */
+    max-width: 100%;
+}
+
+.center-image3 {
+    display: block;
+    margin: 30px auto; /* Adjust the margin to control the distance from the text */
+    max-width: 130px;
+}
+
+
+.center-image4 {
+    display: block;
+    margin: 5px auto; /* Adjust the margin to control the distance from the text */
+    max-width: 100%;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-text {
+    position: absolute;
+    bottom: -200px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff; /* Set the text color to white */
+    font-size: 35px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+.image-text2 {
+    position: absolute;
+    bottom: -220px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #e49ec2; /* Set the text color to white */
+    font-size: 15px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+.image-text3 a{
+    position: absolute;
+    bottom: -240px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    font-weight: lighter;
+    transform: translateX(-50%);
+    color: #1343d3; /* Set the text color for the links */
+    font-size: 11px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+    text-decoration: none; /* Remove underline from the text */
+}
+
+.image-text4 {
+    position: absolute;
+    bottom: -500px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #c87ba3; /* Set the text color to white */
+    font-size: 11px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+.logo-watch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.logo2 svg {
+    width: 27px; /* Adjust the width of your logo */
+    fill: #000000; /* Set the fill color for the logo */
+    margin-right: 120px; /* Adjust the margin as needed */
+    margin-top: 10px;
+}
+
+.image-text5 {
+    position: absolute;
+    bottom: -530px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    font-weight: bold;
+    transform: translateX(-50%);
+    color: #000000; /* Set the text color to white */
+    font-size: 25px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+.image-text6 {
+    position: absolute;
+    bottom: -545px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bolder;
+    color: #c87ba3; /* Set the text color to white */
+    font-size: 11px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+.image-text7 {
+    position: absolute;
+    bottom: -560px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: lighter;
+    color: #453f3f; /* Set the text color to white */
+    font-size: 15px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+}
+
+.image-text8 a{
+    position: absolute;
+    bottom: -50px; /* Adjust the distance of the text from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #1343d3; /* Set the text color for the links */
+    font-size: 12px; /* Adjust the font size as needed */
+    z-index: 1; /* Set a higher z-index to bring the text to the front */
+    text-decoration: none; /* Remove underline from the text */
+}
+
+
+.center-text {
+    margin-bottom: 20px;
+    font-size: 12px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+}
+
+.center-text a {
+    color: #007bff; /* Set the link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.center-text a:hover {
+    color: #0056b3; /* Set the link color on hover */
+}
+
+header {
+    background-color: #676363;
+    padding: 0px 10px; /* Adjust the padding as needed */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the menu horizontally */
+}
+
+.logo svg {
+    width: 100px; /* Adjust the width of your logo */
+    fill: #fff; /* Set the fill color for the logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 55px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.icons svg {
+    width: 20px;
+    fill: #fff;
+    margin-left: 20px;
+}
+
+
+h4{
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+
+h6 a{
+text-decoration: none;
+font-weight: lighter;
+}
+
+.dual-content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0; /* Adjust the margin as needed */
+}
+
+.left-content1,
+.right-content1 {
+    text-align: center;
+}
+
+.right-content1 {
+    margin-left: 0px; /* Adjust the margin between left and right content */
+    margin-right: -100px;
+    margin-top: -70px;
+}
+
+.left-content1{
+    margin-right: 180px;
+    margin-left: 10px;
+}
+
+
+.dual-content-section img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 20px 0; /* Adjust the margin as needed */
+}
+
+
+.logo3-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -20px; /* Adjust the margin as needed */
+}
+
+.logo3 svg {
+    width: 25px; /* Adjust the width of your logo */
+    margin-right: 150px; /* Adjust the margin as needed */
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+
+
+
+.dual-content2-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0; /* Adjust the margin as needed */
+}
+
+.left-content2,
+.right-content2 {
+    text-align: center;
+}
+
+.right-content2{
+    margin-left: 0px; /* Adjust the margin between left and right content */
+    margin-right: -100px;
+    margin-top: -70px;
+}
+
+.left-content2{
+    color: #b0487e;
+    margin-right: 350px;
+    margin-left: 10px;
+}
+
+.left-content2 h4{
+    margin-top: -20px;
+}
+
+
+.dual-content-section img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 20px 0; /* Adjust the margin as needed */
+}
+
+
+.dual-content3-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0; /* Adjust the margin as needed */
+}
+
+.left-content3,
+.right-content3 {
+    text-align: center;
+}
+
+.right-content3{
+    margin-left: 500px; /* Adjust the margin between left and right content */
+    margin-right: -70px;
+
+    
+}
+
+.left-content3{
+    color: #372f33;
+    margin-right: -650px;
+    margin-left: 10px;
+}
+
+.left-content3 h5{
+    margin-top: -10px;
+    font-weight: lighter;
+    color: #676363;
+}
+
+
+.dual-content-section img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 20px 0; /* Adjust the margin as needed */
+}
+
+.right-content3 {
+    position: relative;
+}
+
+.tv,
+.tv-image1,
+.tv-image2,
+.tv-image3,
+.tv-image4 {
+    position: absolute;
+    color: #fff; /* Set the text color */
+    z-index: 1; /* Bring the text elements to the front */
+}
+
+.tv{
+    position: center;
+    left: 370px;
+    top: 45px;
+}
+
+.tv-image1 {
+    top: 400px;
+    left: 390px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tv-image2 {
+    top: 415px;
+    left: 300px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tv-image3 {
+    top: 440px;
+    left: 315px;
+    font-size:44px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tv-image4 {
+    top: 450px;
+    left: 320px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo svg {
+        width: 100%; /* Logo takes full width on smaller screens */
+        margin-bottom: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+    .icons svg {
+        width: 30px; /* Adjust the width of your icons for smaller screens */
+        margin-left: 0;
+    }
+}
